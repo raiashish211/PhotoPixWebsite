@@ -1,0 +1,26 @@
+*{
+    background-color: purple;
+}
+.main-heading{
+    display: flex;
+    align-items:center;
+}
+#myImage{
+    width: 30px;
+    height: 30px;
+}
+.main-heading h2{
+    margin-bottom: 20px;
+}
+button{
+    display: inline-block;
+    background-color: yellow;
+    color: wheat;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    padding: 10px;
+    z-index: 100000;
+}
